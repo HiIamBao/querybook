@@ -125,21 +125,21 @@ affinity: {}
 tolerations: []
 podAnnotations: {}
 
-ingress:
-  enabled: true
-  ingressClassName: ~
-  annotations: {}
-  path: /*
-  pathType: ImplementationSpecific
-  hosts:
-  - <your-querybook-app-domain>
-  tls: []
+# ingress:
+#   enabled: true
+#   ingressClassName: ~
+#   annotations: {}
+#   path: /*
+#   pathType: ImplementationSpecific
+#   hosts:
+#   - <your-querybook-app-domain>
+#   tls: []
   # - secretName: <your-querybook-tls-secret>
   #   hosts:
   #     - <your-querybook-app-domain>
 
-extraEnv:
-  PUBLIC_URL: https://<your-querybook-app-domain>
+# extraEnv:
+#   PUBLIC_URL: https://<your-querybook-app-domain>
   # any other Querybook configuration env. variables can be injected from here
 
 secret:
