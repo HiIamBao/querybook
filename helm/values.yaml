@@ -125,8 +125,8 @@ affinity: {}
 tolerations: []
 podAnnotations: {}
 
-# ingress:
-#   enabled: true
+ingress:
+  enabled: false
 #   ingressClassName: ~
 #   annotations: {}
 #   path: /*
